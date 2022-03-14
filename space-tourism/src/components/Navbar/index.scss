@@ -1,0 +1,24 @@
+@import "../Scss/variables";
+@import "../Scss/mixins";
+.nav-container {
+  @include flex-space-between;
+  align-items: center;
+  width: 97vw;
+  height: 96px;
+  margin-left: 3.45rem;
+  padding-top: 50px;
+  &__second {
+    @include flex-center;
+    width: 45vw;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+  }
+  .btn-container {
+    @include flex-space-between;
+    margin-right: 10.31rem;
+    margin-left: 7.68rem;
+    width: 542px;
+    height: 19px;
+  }
+}

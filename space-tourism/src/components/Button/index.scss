@@ -1,0 +1,18 @@
+@import "../Scss/variables";
+@import "../Scss/variables";
+.btn {
+  width: 105px;
+  height: 57px;
+  color: $white;
+  border: none;
+  background: none;
+  padding-bottom: 38px;
+  &:focus {
+    border-bottom: 3px solid $white;
+    cursor: pointer;
+  }
+  &:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+}
